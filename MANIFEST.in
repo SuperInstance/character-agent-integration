@@ -1,0 +1,9 @@
+include README.md
+include LICENSE
+include CHANGELOG.md
+include CONTRIBUTING.md
+include SECURITY.md
+recursive-include character_agent_integration *.py
+recursive-include examples *.py
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]

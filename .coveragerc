@@ -1,0 +1,23 @@
+[run]
+source = character_agent_integration
+omit =
+    tests/*
+    */__init__.py
+    */conftest.py
+    setup.py
+
+[report]
+exclude_lines =
+    pragma: no cover
+    def __repr__
+    raise AssertionError
+    raise NotImplementedError
+    if __name__ == .__main__.:
+    if TYPE_CHECKING:
+    @abstractmethod
+    def __init__(self.*\):
+    pass
+    \.\.\.
+
+[html]
+directory = htmlcov

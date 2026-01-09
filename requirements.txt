@@ -1,0 +1,18 @@
+# Core dependencies
+character-library>=1.0.0
+hierarchical-memory>=1.0.0
+numpy>=1.20.0
+
+# Optional dependencies for development
+# Uncomment as needed:
+
+# # Development dependencies
+# pytest>=7.0.0
+# pytest-cov>=3.0.0
+# black>=22.0.0
+# flake8>=4.0.0
+# mypy>=0.950
+
+# # Documentation dependencies
+# sphinx>=4.5.0
+# sphinx-rtd-theme>=1.0.0
